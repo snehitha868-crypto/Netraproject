@@ -1,0 +1,53 @@
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #08111f;
+    color:antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+    min-height:100vh;
+}
+
+button,input,select{
+    font-family:inherit;
+}
+
+button{
+    background: #287ee8;
+    border:0;
+    color:white;
+    padding:12px 20px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight: bold;
+}
+button:hover{
+    background: #1765c3;
+}
+.topbar{
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    padding:10px;
+    background: #111f34;
+    border-bottom: 1px solid #2a3d59;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    gap:12px;
+}
+.brand-logo{
+    color:#54a5ff;
+}
